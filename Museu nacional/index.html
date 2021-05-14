@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Museu nacional</title>
+    <!--normalize css-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+    <!--estilo customizado-->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+    <div id="container"><!--início container-->
+
+        <header><!--início header-->
+            <div id="logo">
+                <h1><a href="">Museu nacional</a></h1>
+            </div>
+
+            <nav><!--início nav-->
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Exposições</a></li>
+                    <li><a href="">Pesquisa</a></li>
+                    <li><a href="">Acervo</a></li>
+                    <li><a href="">Vídeos</a></li>
+                    <li><a href="">Fotos</a></li>
+                    <li><a href="">Contatos</a></li>
+                </ul>
+
+            </nav><!--fim nav-->
+        </header><!--fim header-->
+
+        <div id="principal"><!--início principal-->
+
+            <div id="conteudo"><!--início conteudo-->
+                <section id="capa">
+                    <img src="img/museu.png">
+                </section>
+
+                <section id="postagens">
+                    <article id="video">
+                        <h3>Vídeo: conheça o museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/ufAYM1sNAGc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Mapa: Encontre o museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.3569855525147!2d-34.96507955008496!3d-8.0650219941646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1be5b258dc45%3A0xcba66c54ffed227a!2sInstituto%20Ricardo%20Brennand!5e0!3m2!1spt-BR!2sbr!4v1611925558926!5m2!1spt-BR!2sbr" width="310" height="170" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <li>
+                            <a href="">Museu de armas</a>
+                        </li>
+
+                        <li>
+                            <a href="">Esculturas</a>
+                        </li>
+
+                        <li>
+                            <a href="">Biblioteca</a>
+                        </li>
+
+                        <li>
+                            <a href="">Arquitetura</a>
+                        </li>
+
+                        <li>
+                            <a href=""><strong>Veja todos</strong></a>
+                        </li>
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 anos de história</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel reprehenderit atque deserunt nulla, nisi optio doloribus velit repellat ad magni qui sapiente mollitia aperiam ea tenetur autem labore iure quibusdam?
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
+                        <a><strong>Leia mais</strong></a>
+                    </article>
+
+                </section>
+            </div><!--fim conteudo-->
+
+            <aside><!--tag específica para criação de barras laterais--><!--início aside-->
+                <section id="depoimento">
+                    <img src="img/depoimento.png">
+                </section>
+
+                <section id="visita"><!--início visita-->
+                    <h4>Faça uma visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                            <label for="qtd">Qtd pessoas</label>
+                            <input class="campo" style="width: 30px" type="text" id="qtd" value="1">
+
+                            <input class="botao" type="submit" value="Verificar disponibilidade">
+
+                        </fieldset>
+                    </form>
+                </section><!--fim visita-->
+
+                <section id="galeria">
+                    <h4>Galeria de fotos</h4>
+
+                    <a href="">
+                        <img src="img/imagem1.jpg" height="93" width="93">
+                    </a>
+
+                    <a href="">
+                        <img src="img/imagem2.jpg" height="93" width="93">
+                    </a>
+
+                    <a href="">
+                        <img src="img/imagem3.jpg" height="93" width="93">
+                    </a>
+
+                    <a href="">
+                        <img src="img/imagem4.jpg" height="93" width="93">
+                    </a>
+                </section>
+            </aside><!--fim aside-->
+            <footer>
+                conteúdo
+            </footer>
+        </div><!--fim principal-->
+
+    </div><!--fim container-->
+    
+</body>
+</html>
